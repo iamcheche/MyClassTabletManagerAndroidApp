@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnOK"
+        android:layout_alignBottom="@+id/btnOK"
+        android:layout_marginRight="36dp"
+        android:layout_toLeftOf="@+id/btnOK"
+        android:background="@android:color/transparent"
+        android:text="@string/update"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnCancel"
+        android:layout_alignBottom="@+id/btnCancel"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:text="OK"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="84dp"
+        android:layout_toRightOf="@+id/btnOK"
+        android:background="@android:color/transparent"
+        android:text="Cancel"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnUpdate"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        android:background="@android:color/transparent"
+        android:text="Log Out"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnTutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnLogOut"
+        android:layout_alignBottom="@+id/btnLogOut"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:text="Tutorial"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+     <Button
+         android1:id="@+id/btnAdd"
+         android1:layout_width="wrap_content"
+         android1:layout_height="wrap_content"
+         android1:layout_alignLeft="@+id/btnLogOut"
+         android1:layout_below="@+id/btnLogOut"
+         android1:layout_marginTop="43dp"
+         android1:background="@android:color/transparent"
+         android1:text="Add Class"
+         android:textColor="#ffffff"
+         android1:textSize="30sp" />
+
+     <ListView
+         android1:id="@+id/lvClass"
+         android1:layout_width="fill_parent"
+         android1:layout_height="400dp"
+         android1:layout_below="@+id/btnAdd"
+         android1:layout_marginTop="42dp"
+         android1:dividerHeight="2dp"
+         android:textColor="#ffffff"
+         android1:gravity="center" >
+         
+     </ListView>
+
+     <TextView
+         android1:id="@+id/textView1"
+         android1:layout_width="wrap_content"
+         android:textColor="#ffffff"
+         android1:layout_height="wrap_content"
+         android1:layout_alignRight="@+id/btnLogOut"
+         android1:layout_below="@+id/lvClass"
+         android1:layout_marginTop="38dp"
+         android1:text="Action"
+         android1:textSize="30sp" />
+
+     <RadioGroup
+         android1:id="@+id/radioGroup1"
+         android1:layout_width="wrap_content"
+         android1:layout_height="wrap_content"
+         android1:layout_alignLeft="@+id/btnCancel"
+         android1:layout_alignTop="@+id/textView1"
+         android:textColor="#ffffff"
+         android1:layout_marginLeft="45dp" >
+
+         <RadioButton
+             android1:id="@+id/radio0"
+             android1:layout_width="wrap_content"
+             android1:layout_height="wrap_content"
+             android1:checked="true"
+             android1:text="Edit"
+             android:textColor="#ffffff"
+             android1:textSize="20sp" />
+
+         <RadioButton
+             android1:id="@+id/radio2"
+             android1:layout_width="wrap_content"
+             android1:layout_height="wrap_content"
+             android1:text="Delete"
+             android:textColor="#ffffff"
+             android1:textSize="20sp" />
+     </RadioGroup>
+
+</RelativeLayout>
