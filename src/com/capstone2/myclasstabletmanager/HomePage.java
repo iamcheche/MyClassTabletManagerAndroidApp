@@ -1,22 +1,16 @@
 package com.capstone2.myclasstabletmanager;
 
-//import java.util.ArrayList;
-//import java.util.List;
+
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
-//import android.widget.AdapterView;
-//import android.widget.AdapterView.OnItemClickListener;
-//import android.widget.ArrayAdapter;
+
 import android.widget.Button;
-//import android.widget.ListView;
 
 public class HomePage extends Activity implements OnClickListener{
-
-	 //private ListView lv;
 	 
 	@Override
 	protected void onCreate(Bundle homePage) {
@@ -38,21 +32,7 @@ public class HomePage extends Activity implements OnClickListener{
 		
 		Button class1 = (Button)findViewById(R.id.btnClass1);
 			class1.setOnClickListener(this);
-		
-		/*ListView lv = (ListView) findViewById(R.id.lvClass);
-		lv.setOnItemClickListener((OnItemClickListener) this);
 
-         List<String> class_array = new ArrayList<String>();
-         class_array.add("English101");
-         class_array.add("Speech101");
-         class_array.add("CommArts101");
-         
-         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(
-                 this, 
-                 android.R.layout.simple_list_item_1,
-                 class_array );
-
-         lv.setAdapter(arrayAdapter); */
 		
 	}
 
@@ -74,19 +54,9 @@ public class HomePage extends Activity implements OnClickListener{
 		 }
 		 
 		 else if(v.getId() == R.id.btnClass1){
-			 	Intent intent = new Intent(getBaseContext(), ClassDetails.class);
+			 	Intent intent = new Intent(getBaseContext(), Detail.class);
 					startActivity(intent);  
 		 }
 		 
 	}
-
-	/*public void onItemClick(AdapterView<?> l, View v, int position, long id) {
-            // Then you start a new Activity via Intent
-            Intent intent = new Intent();
-            intent.setClass(this, ClassDetails.class);
-            intent.putExtra("position", position);
-            // Or / And
-            intent.putExtra("id", id);
-            startActivity(intent);
-    }*/
 }

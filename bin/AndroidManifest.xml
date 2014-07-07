@@ -15,6 +15,8 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".LoadingIntroduction"
+            android:configChanges="orientation"
+    		android:screenOrientation="portrait"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,6 +27,8 @@
         
         <activity
             android:name=".StartingPoint"
+            android:configChanges="orientation"
+    		android:screenOrientation="portrait"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.capstone2.myclasstabletmanager.STARTINGPOINT" />
@@ -35,6 +39,8 @@
        
         <activity
             android:name=".SelectLevel"
+            android:configChanges="orientation"
+    		android:screenOrientation="portrait"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.capstone2.myclasstabletmanager.SELECTLEVEL" />
@@ -45,6 +51,8 @@
         
         <activity
             android:name=".Tutorial"
+            android:configChanges="orientation"
+    		android:screenOrientation="portrait"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.capstone2.myclasstabletmanager.TUTORIAL" />
@@ -55,6 +63,8 @@
         
         <activity
             android:name=".HomePage"
+            android:configChanges="orientation"
+    		android:screenOrientation="portrait"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.capstone2.myclasstabletmanager.HOMEPAGE" />
@@ -65,6 +75,8 @@
          
          <activity
             android:name=".NewClass"
+            android:configChanges="orientation"
+    		android:screenOrientation="portrait"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.capstone2.myclasstabletmanager.NEWCLASS" />
@@ -75,6 +87,8 @@
     	
         <activity
             android:name=".ArrangeSeat"
+            android:configChanges="orientation"
+    		android:screenOrientation="portrait"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.capstone2.myclasstabletmanager.ARRANGESEAT" />
@@ -85,6 +99,8 @@
         
         <activity
             android:name=".CategoryOne"
+            android:configChanges="orientation"
+    		android:screenOrientation="landscape"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.capstone2.myclasstabletmanager.CATEGORYONE" />
@@ -93,9 +109,22 @@
             </intent-filter>
         </activity>
         
+        <activity
+            android:name=".Category2"
+            android:configChanges="orientation"
+    		android:screenOrientation="landscape"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.capstone2.myclasstabletmanager.CATEGORYONE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         
 	    <activity
             android:name=".Category3"
+            android:configChanges="orientation"
+    		android:screenOrientation="landscape"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.capstone2.myclasstabletmanager.CATEGORY3" />
@@ -106,6 +135,8 @@
         
 	    <activity
             android:name=".Category4"
+            android:configChanges="orientation"
+    		android:screenOrientation="landscape"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.capstone2.myclasstabletmanager.CATEGORY4" />
@@ -116,6 +147,8 @@
 	    
 	    <activity
             android:name=".Category5"
+            android:configChanges="orientation"
+    		android:screenOrientation="landscape"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.capstone2.myclasstabletmanager.CATEGORY5" />
@@ -123,19 +156,11 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-	    
-	   <activity
-            android:name=".ClassDetails"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="com.capstone2.myclasstabletmanager.CLASSDETAILS" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-	    
+	    	    
 	   <activity
             android:name=".ClassOverallGrade"
+            android:configChanges="orientation"
+    		android:screenOrientation="portrait"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.capstone2.myclasstabletmanager.CLASSOVERALLGRADE" />
@@ -145,7 +170,21 @@
         </activity>
 	   
 	   <activity
+            android:name=".Detail"
+            android:configChanges="orientation"
+    		android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.capstone2.myclasstabletmanager.DETAIL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+	   <activity
             android:name=".GradingFormula"
+            android:configChanges="orientation"
+    		android:screenOrientation="portrait"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.capstone2.myclasstabletmanager.GradingFormula" />
@@ -156,6 +195,8 @@
 	   
 	   <activity
             android:name=".Lecture"
+            android:configChanges="orientation"
+    		android:screenOrientation="portrait"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.capstone2.myclasstabletmanager.LECTURE" />
@@ -166,6 +207,8 @@
 	   
 	   <activity
             android:name=".SeatPlanCategory"
+            android:configChanges="orientation"
+    		android:screenOrientation="portrait"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.capstone2.myclasstabletmanager.SEATPLANCATEGORY" />
@@ -176,6 +219,8 @@
 	   
 	   <activity
             android:name=".Stats"
+            android:configChanges="orientation"
+    		android:screenOrientation="portrait"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.capstone2.myclasstabletmanager.STATS" />
@@ -186,6 +231,8 @@
 	   
 	    <activity
             android:name=".Task"
+            android:configChanges="orientation"
+    		android:screenOrientation="portrait"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.capstone2.myclasstabletmanager.TASK" />

@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-public class ClassDetails extends Activity implements OnClickListener{
+public class Detail  extends Activity implements OnClickListener{
 
 	@Override
 	protected void onCreate(Bundle classDetails) {
