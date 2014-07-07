@@ -22,6 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
         <activity
             android:name=".StartingPoint"
             android:label="@string/app_name" >
@@ -31,6 +32,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+       
         <activity
             android:name=".SelectLevel"
             android:label="@string/app_name" >
@@ -40,6 +42,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        
         <activity
             android:name=".Tutorial"
             android:label="@string/app_name" >
@@ -49,6 +52,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        
         <activity
             android:name=".HomePage"
             android:label="@string/app_name" >
@@ -58,6 +62,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+         
          <activity
             android:name=".NewClass"
             android:label="@string/app_name" >
@@ -67,6 +72,128 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+    	
+        <activity
+            android:name=".ArrangeSeat"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.capstone2.myclasstabletmanager.ARRANGESEAT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".CategoryOne"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.capstone2.myclasstabletmanager.CATEGORYONE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+	    <activity
+            android:name=".Category3"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.capstone2.myclasstabletmanager.CATEGORY3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+	    <activity
+            android:name=".Category4"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.capstone2.myclasstabletmanager.CATEGORY4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+	    
+	    <activity
+            android:name=".Category5"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.capstone2.myclasstabletmanager.CATEGORY5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+	    
+	   <activity
+            android:name=".ClassDetails"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.capstone2.myclasstabletmanager.CLASSDETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+	    
+	   <activity
+            android:name=".ClassOverallGrade"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.capstone2.myclasstabletmanager.CLASSOVERALLGRADE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+	   
+	   <activity
+            android:name=".GradingFormula"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.capstone2.myclasstabletmanager.GradingFormula" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+	   
+	   <activity
+            android:name=".Lecture"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.capstone2.myclasstabletmanager.LECTURE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+	   
+	   <activity
+            android:name=".SeatPlanCategory"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.capstone2.myclasstabletmanager.SEATPLANCATEGORY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+	   
+	   <activity
+            android:name=".Stats"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.capstone2.myclasstabletmanager.STATS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+	   
+	    <activity
+            android:name=".Task"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.capstone2.myclasstabletmanager.TASK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+	   
     </application>
 
 </manifest>

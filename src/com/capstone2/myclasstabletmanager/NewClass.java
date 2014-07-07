@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.Button;
 
 public class NewClass extends Activity implements OnClickListener{
 
@@ -14,7 +15,11 @@ public class NewClass extends Activity implements OnClickListener{
 		super.onCreate(newClass);
 		setContentView(R.layout.newclass); 
 		
-		
+		Button grade = (Button)findViewById(R.id.btnClassGrading);
+			grade.setOnClickListener(this);
+
+		Button seat = (Button)findViewById(R.id.btnSeatPlan);
+			seat.setOnClickListener(this);
 		
 		
 	}
@@ -28,7 +33,7 @@ public class NewClass extends Activity implements OnClickListener{
 
 	 }
 	 else if(v.getId() == R.id.btnSeatPlan){
-	        Intent intent = new Intent(getBaseContext(), SeatPlan.class);
+	        Intent intent = new Intent(getBaseContext(), SeatPlanCategory.class);
 	            startActivity(intent);  
 	 }
 	}

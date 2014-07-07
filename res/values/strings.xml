@@ -13,6 +13,10 @@
 	<string name="submit">Submit</string>
 	<string name="signup"> Create Account</string>
 	<string name="update"> <u>Update Server</u></string>
-	
+	<string name ="cat1"> |#| |#| |#| |#| |#| |#|\n|#| |#| |#| |#| |#| |#|\n|#| |#| |#| |#| |#| |#|\n|#| |#| |#| |#| |#| |#|\n|#| |#| |#| |#| |#| |#| </string> 
+	<string name ="cat2"> |##| |##| |##| |##|\n|##| |##| |##| |##|\n|##| |##| |##| |##|\n|##| |##| |##| |##|\n|##| |##| |##| |##|</string> 
+	<string name ="cat3"> |###| |###| |###|\n|###| |###| |###|\n|###| |###| |###|\n|###| |###| |###|\n|###| |###| |###| </string> 
+	<string name ="cat4"> |####| |####|\n|####| |####|\n|####| |####|\n|####| |####|\n|####| |####| </string> 
+	<string name ="cat5"> |#####| |#####|\n|#####| |#####|\n|#####| |#####|\n|#####| |#####|\n|#####| |#####| </string> 
 	
 </resources>

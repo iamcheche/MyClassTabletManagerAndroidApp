@@ -1,20 +1,22 @@
 package com.capstone2.myclasstabletmanager;
 
-import java.util.ArrayList;
-import java.util.List;
+//import java.util.ArrayList;
+//import java.util.List;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.ArrayAdapter;
+//import android.widget.AdapterView;
+//import android.widget.AdapterView.OnItemClickListener;
+//import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ListView;
+//import android.widget.ListView;
 
 public class HomePage extends Activity implements OnClickListener{
 
-	 private ListView lv;
+	 //private ListView lv;
 	 
 	@Override
 	protected void onCreate(Bundle homePage) {
@@ -23,14 +25,22 @@ public class HomePage extends Activity implements OnClickListener{
 		setContentView(R.layout.homepage); 
 		
 		Button logout = (Button)findViewById(R.id.btnLogOut);
-		logout.setOnClickListener(this);
+			logout.setOnClickListener(this);
+		
 		Button ok = (Button)findViewById(R.id.btnOK);
-		ok.setOnClickListener(this);
+			ok.setOnClickListener(this);
+		
 		Button add = (Button)findViewById(R.id.btnAdd);
-		add.setOnClickListener(this);
+			add.setOnClickListener(this);
+		
 		Button tutorial = (Button)findViewById(R.id.btnTutorial);
-		tutorial.setOnClickListener(this);
-		lv = (ListView) findViewById(R.id.lvClass);
+			tutorial.setOnClickListener(this);
+		
+		Button class1 = (Button)findViewById(R.id.btnClass1);
+			class1.setOnClickListener(this);
+		
+		/*ListView lv = (ListView) findViewById(R.id.lvClass);
+		lv.setOnItemClickListener((OnItemClickListener) this);
 
          List<String> class_array = new ArrayList<String>();
          class_array.add("English101");
@@ -42,7 +52,7 @@ public class HomePage extends Activity implements OnClickListener{
                  android.R.layout.simple_list_item_1,
                  class_array );
 
-         lv.setAdapter(arrayAdapter); 
+         lv.setAdapter(arrayAdapter); */
 		
 	}
 
@@ -62,6 +72,21 @@ public class HomePage extends Activity implements OnClickListener{
 			 	Intent intent = new Intent(getBaseContext(), Tutorial.class);
 					startActivity(intent);  
 		 }
+		 
+		 else if(v.getId() == R.id.btnClass1){
+			 	Intent intent = new Intent(getBaseContext(), ClassDetails.class);
+					startActivity(intent);  
+		 }
+		 
 	}
 
+	/*public void onItemClick(AdapterView<?> l, View v, int position, long id) {
+            // Then you start a new Activity via Intent
+            Intent intent = new Intent();
+            intent.setClass(this, ClassDetails.class);
+            intent.putExtra("position", position);
+            // Or / And
+            intent.putExtra("id", id);
+            startActivity(intent);
+    }*/
 }

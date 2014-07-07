@@ -81,26 +81,14 @@
          android:textColor="#ffffff"
          android1:textSize="30sp" />
 
-     <ListView
-         android1:id="@+id/lvClass"
-         android1:layout_width="fill_parent"
-         android1:layout_height="400dp"
-         android1:layout_below="@+id/btnAdd"
-         android1:layout_marginTop="42dp"
-         android1:dividerHeight="2dp"
-         android:textColor="#ffffff"
-         android1:gravity="center" >
-         
-     </ListView>
-
      <TextView
          android1:id="@+id/textView1"
          android1:layout_width="wrap_content"
-         android:textColor="#ffffff"
          android1:layout_height="wrap_content"
          android1:layout_alignRight="@+id/btnLogOut"
-         android1:layout_below="@+id/lvClass"
+         android1:layout_below="@+id/btnAdd"
          android1:layout_marginTop="38dp"
+         android:textColor="#ffffff"
          android1:text="Action"
          android1:textSize="30sp" />
 
@@ -130,5 +118,14 @@
              android:textColor="#ffffff"
              android1:textSize="20sp" />
      </RadioGroup>
+
+     <Button
+         android1:id="@+id/btnClass1"
+         android1:layout_width="wrap_content"
+         android1:layout_height="wrap_content"
+         android1:layout_below="@+id/radioGroup1"
+         android1:layout_marginTop="40dp"
+         android1:layout_toLeftOf="@+id/btnCancel"
+         android1:text="Class 1" />
 
 </RelativeLayout>

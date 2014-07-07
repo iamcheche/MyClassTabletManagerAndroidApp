@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnCat3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnCat2"
+        android:layout_below="@+id/btnCat2"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/transparent"
+        android:text="@string/cat3"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnCat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnCat1"
+        android:layout_below="@+id/btnCat1"
+        android:layout_marginTop="17dp"
+        android:background="@android:color/transparent"
+        android:text="@string/cat2"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/TextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignTop="@+id/btnCat3"
+        android:layout_marginTop="27dp"
+        android:text="Category 3"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnCat2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_marginBottom="28dp"
+        android:text="Category 2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/TextView3"
+         android:layout_below="@+id/btnCat3"
+         android:layout_marginTop="51dp"
+         android:text="Category 4"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="#fff"
+         android:textSize="30sp" />
+
+     <Button
+         android:id="@+id/btnCat4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/btnCat3"
+         android:layout_below="@+id/btnCat3"
+         android:layout_marginTop="14dp"
+         android:background="@android:color/transparent"
+         android:text="@string/cat4"
+         android:textSize="16sp" />
+
+       <Button
+           android:id="@+id/btnCat5"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/btnCat4"
+           android:layout_below="@+id/btnCat4"
+           android:layout_marginTop="13dp"
+           android:background="@android:color/transparent"
+           android:text="@string/cat5"
+           android:textSize="16sp" />
+
+       <TextView
+           android:id="@+id/textView5"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBottom="@+id/btnCat5"
+           android:layout_alignLeft="@+id/textView4"
+           android:layout_marginBottom="29dp"
+           android:text="Category 5"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:textColor="#fff"
+           android:textSize="30sp" />
+
+       <TextView
+           android:id="@+id/textView2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBottom="@+id/btnCat1"
+           android:layout_alignParentLeft="true"
+           android:layout_marginBottom="18dp"
+           android:layout_marginLeft="98dp"
+           android:text="Category 1"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:textColor="#fff"
+           android:textSize="30sp" />
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentTop="true"
+           android:layout_alignRight="@+id/btnCat4"
+           android:layout_marginRight="41dp"
+           android:layout_marginTop="98dp"
+           android:text="Seat Plan Categories"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:textColor="#fff"
+           android:textSize="30sp" />
+
+       <Button
+           android:id="@+id/btnCat1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+           android:layout_below="@+id/textView1"
+           android:layout_marginRight="107dp"
+           android:layout_marginTop="41dp"
+           android:background="@android:color/transparent"
+           android:text="@string/cat1"
+           android:textSize="16sp" />
+
+</RelativeLayout>

@@ -76,14 +76,14 @@
 			android:text="VIEW CLASS"
 			android:layout_width="fill_parent"
 			android:layout_weight="1.0"
-			android:id="@+id/id_btn_viewclass"/>
+			android:id="@+id/btnView"/>
 
 		<Button
 			android:layout_height="wrap_content"
 			android:text="ATTEND"
 			android:layout_width="fill_parent"
 			android:layout_weight="1.0"
-			android:id="@+id/id_btn_attend"/>
+			android:id="@+id/btnAttend"/>
 
 	</LinearLayout>
 
