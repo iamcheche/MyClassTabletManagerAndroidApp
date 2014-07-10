@@ -18,5 +18,13 @@
 	<string name ="cat3"> |###| |###| |###|\n|###| |###| |###|\n|###| |###| |###|\n|###| |###| |###|\n|###| |###| |###| </string> 
 	<string name ="cat4"> |####| |####|\n|####| |####|\n|####| |####|\n|####| |####|\n|####| |####| </string> 
 	<string name ="cat5"> |#####| |#####|\n|#####| |#####|\n|#####| |#####|\n|#####| |#####|\n|#####| |#####| </string> 
+	<string name="ok">OK</string> 
+	<string name="class_1">Class 1</string> 
+	<string name="name">Name</string> 
+	<string name="class_details">Class Details</string> 
+	<string name="grades">Grades</string> 
+	<string name="formula">Formula</string> 
+	<string name="seat_plan">Seat Plan</string> 
+	<string name="cancel">Cancel</string> 
 	
 </resources>

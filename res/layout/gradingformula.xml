@@ -1,199 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:layout_height="match_parent"
-	android:layout_width="match_parent"
-	android:orientation="vertical">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
 
-	<TextView
-		android:layout_height="40dp"
-		android:text="GRADING SYSTEM"
-		android:layout_width="match_parent"
-		android:textSize="30sp"
-		android:gravity="left|center"
-		android:layout_marginLeft="10dp"/>
+    <TextView
+        android1:id="@+id/textView1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentTop="true"
+        android1:layout_centerHorizontal="true"
+        android1:layout_marginTop="126dp"
+        android1:text="Formula for Class Overall Grade"
+        android1:textAppearance="?android:attr/textAppearanceLarge" />
 
-	<LinearLayout
-		android:layout_height="2dp"
-		android:layout_width="match_parent"
-		android:orientation="vertical"
-		android:background="#FF0F00"/>
+    <RadioGroup
+        android1:id="@+id/radioGroup1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/textView1"
+        android1:layout_marginLeft="50dp"
+        android1:layout_marginTop="50dp" >
 
-	<LinearLayout
-		android:layout_height="fill_parent"
-		android:layout_width="fill_parent"
-		android:orientation="vertical"
-		android:layout_weight="1.0"
-		android:padding="5dp">
+        <RadioButton
+            android1:id="@+id/radio0"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:checked="true"
+            android1:text="Assignment" />
 
-		<TextView
-			android:layout_height="wrap_content"
-			android:text="Grading Field"
-			android:layout_width="wrap_content"
-			android:textSize="20sp"
-			android:gravity="bottom|left"
-			android:layout_marginLeft="5dp"/>
+        <RadioButton
+            android1:id="@+id/radio1"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:text="Project" />
 
-		<LinearLayout
-			android:layout_height="wrap_content"
-			android:layout_width="match_parent"
-			android:orientation="horizontal"
-			android:layout_weight="1.0">
+        <RadioButton
+            android1:id="@+id/radio2"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:text="Recitation" />
+        
+        <RadioButton
+            android1:id="@+id/radio3"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:text="Exam" />
+        
+    </RadioGroup>
 
-			<LinearLayout
-				android:layout_height="match_parent"
-				android:layout_width="0dp"
-				android:orientation="horizontal"
-				android:layout_weight="0.75"
-				android:padding="2dp">
+    <TextView
+        android1:id="@+id/textView2"
+        android1:layout_width="200dp"
+        android1:layout_height="300dp"
+        android1:layout_alignParentRight="true"
+        android1:layout_alignTop="@+id/radioGroup1"
+        android1:layout_marginRight="60dp"
+        android1:background="@drawable/border"
+        android1:text="TextView" />
 
-				<ListView
-					android:layout_height="match_parent"
-					android:layout_width="wrap_content"
-					android:id="@+id/grading_list" />
+    <Button
+        android1:id="@+id/button1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignLeft="@+id/radioGroup1"
+        android1:layout_below="@+id/textView2"
+        android1:layout_marginTop="101dp"
+        android1:text="+" />
 
-			</LinearLayout>
+    <Button
+        android1:id="@+id/Button01"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignBaseline="@+id/button1"
+        android1:layout_alignBottom="@+id/button1"
+        android1:layout_marginLeft="17dp"
+        android1:layout_toRightOf="@+id/button1"
+        android1:text="-" />
 
-			<LinearLayout
-				android:layout_height="match_parent"
-				android:layout_width="0dp"
-				android:orientation="vertical"
-				android:layout_weight="0.25">
+    <Button
+        android1:id="@+id/button2"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignBaseline="@+id/Button01"
+        android1:layout_alignBottom="@+id/Button01"
+        android1:layout_marginLeft="25dp"
+        android1:layout_toRightOf="@+id/Button01"
+        android1:text="*" />
 
-				<Button
-					android:id="@+id/addField"
-					android:layout_height="wrap_content"
-					android:text="Add"
-					android:layout_width="match_parent"/>
+    <Button
+        android1:id="@+id/button3"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignBottom="@+id/button2"
+        android1:layout_marginLeft="20dp"
+        android1:layout_toRightOf="@+id/button2"
+        android1:text="/" />
 
-				<Button
-					android:id="@+id/deleteField"
-					android:layout_height="wrap_content"
-					android:text="Delete"
-					android:layout_width="match_parent"/>
+    <Button
+        android1:id="@+id/button5"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignBottom="@+id/button4"
+        android1:layout_marginLeft="18dp"
+        android1:layout_toRightOf="@+id/button4"
+        android1:text="=" />
 
-				<LinearLayout
-					android:layout_height="match_parent"
-					android:layout_width="match_parent"
-					android:orientation="vertical"
-					android:gravity="bottom">
+    <Button
+        android1:id="@+id/button4"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignBaseline="@+id/button3"
+        android1:layout_alignBottom="@+id/button3"
+        android1:layout_alignRight="@+id/textView1"
+        android1:text="%" />
 
-					<Button
-						android:id="@+id/useField"
-						android:layout_height="wrap_content"
-						android:text="Use"
-						android:layout_width="match_parent"/>
-
-				</LinearLayout>
-
-			</LinearLayout>
-
-		</LinearLayout>
-
-	</LinearLayout>
-
-	<LinearLayout
-		android:layout_height="2dp"
-		android:layout_width="match_parent"
-		android:orientation="horizontal"
-		android:background="#FF0F00"/>
-
-	<LinearLayout
-		android:layout_height="fill_parent"
-		android:layout_width="match_parent"
-		android:orientation="vertical"
-		android:layout_weight="1.0"
-		android:padding="5dp">
-
-		<TextView
-			android:layout_height="wrap_content"
-			android:text="Grading Formulation"
-			android:layout_width="match_parent"
-			android:textSize="20sp"
-			android:gravity="bottom|left"
-			android:layout_marginLeft="5dp"/>
-
-		<LinearLayout
-			android:layout_height="match_parent"
-			android:layout_width="match_parent"
-			android:orientation="vertical"
-			android:gravity="center"
-			android:layout_weight="1.0">
-
-			<TextView
-				android:id="@+id/appendText"
-				android:layout_height="wrap_content"
-				android:text="Formula"
-				android:layout_width="wrap_content"/>
-
-		</LinearLayout>
-
-		<LinearLayout
-			android:layout_height="wrap_content"
-			android:layout_width="match_parent"
-			android:orientation="horizontal">
-
-			<Button
-				android:layout_height="wrap_content"
-				android:text="+"
-				android:layout_width="wrap_content"
-				android:layout_weight="1.0"/>
-
-			<Button
-				android:layout_height="wrap_content"
-				android:text="-"
-				android:layout_width="wrap_content"
-				android:layout_weight="1.0"/>
-
-			<Button
-				android:layout_height="wrap_content"
-				android:text="*"
-				android:layout_width="wrap_content"
-				android:layout_weight="1.0"/>
-
-			<Button
-				android:layout_height="wrap_content"
-				android:text="/"
-				android:layout_width="wrap_content"
-				android:layout_weight="1.0"/>
-
-			<Button
-				android:layout_height="wrap_content"
-				android:text="("
-				android:layout_width="wrap_content"
-				android:layout_weight="1.0"/>
-
-			<Button
-				android:layout_height="wrap_content"
-				android:text=")"
-				android:layout_width="wrap_content"
-				android:layout_weight="1.0"/>
-
-		</LinearLayout>
-
-	</LinearLayout>
-
-	<LinearLayout
-		android:layout_height="2dp"
-		android:layout_width="match_parent"
-		android:orientation="vertical"
-		android:background="#FF0F00"/>
-
-	<LinearLayout
-		android:layout_height="wrap_content"
-		android:layout_width="match_parent"
-		android:orientation="horizontal"
-		android:gravity="right|center"
-		android:padding="5dp">
-
-		<Button
-			android:layout_height="wrap_content"
-			android:text="Set Computations"
-			android:layout_width="wrap_content"/>
-
-	</LinearLayout>
-
-	
-</LinearLayout>
-
-
+</RelativeLayout>

@@ -13,7 +13,7 @@
         android:layout_below="@+id/Button01"
         android:layout_marginTop="14dp"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -25,7 +25,7 @@
         android:layout_below="@+id/button1"
         android:layout_marginTop="12dp"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -37,7 +37,7 @@
         android:layout_below="@+id/Button03"
         android:layout_marginTop="12dp"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -49,7 +49,7 @@
         android:layout_below="@+id/Button02"
         android:layout_marginTop="11dp"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -60,7 +60,7 @@
         android:layout_above="@+id/Button02"
         android:layout_alignLeft="@+id/Button09"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -71,7 +71,7 @@
         android:layout_alignLeft="@+id/Button08"
         android:layout_centerVertical="true"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -82,7 +82,7 @@
         android:layout_above="@+id/Button04"
         android:layout_alignLeft="@+id/Button07"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -94,7 +94,7 @@
         android:layout_alignBottom="@+id/Button04"
         android:layout_alignLeft="@+id/Button05"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -105,7 +105,7 @@
         android:layout_above="@+id/Button02"
         android:layout_alignLeft="@+id/Button10"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -117,7 +117,7 @@
         android:layout_alignBottom="@+id/Button07"
         android:layout_alignLeft="@+id/Button11"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -128,7 +128,7 @@
         android:layout_above="@+id/Button04"
         android:layout_alignLeft="@+id/Button12"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -140,7 +140,7 @@
         android:layout_alignBottom="@+id/Button06"
         android:layout_alignLeft="@+id/Button13"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -151,7 +151,7 @@
         android:layout_above="@+id/Button02"
         android:layout_alignLeft="@+id/Button15"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -163,7 +163,7 @@
         android:layout_alignBottom="@+id/Button02"
         android:layout_alignLeft="@+id/Button16"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -175,7 +175,7 @@
         android:layout_alignBottom="@+id/Button13"
         android:layout_alignLeft="@+id/Button17"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -187,7 +187,7 @@
         android:layout_alignBottom="@+id/Button14"
         android:layout_alignLeft="@+id/Button18"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -198,7 +198,7 @@
         android:layout_above="@+id/Button02"
         android:layout_alignLeft="@+id/Button20"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -210,7 +210,7 @@
         android:layout_alignBottom="@+id/Button12"
         android:layout_alignLeft="@+id/Button21"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -221,7 +221,7 @@
         android:layout_above="@+id/Button04"
         android:layout_alignLeft="@+id/Button22"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -233,7 +233,7 @@
         android:layout_alignBottom="@+id/Button19"
         android:layout_alignLeft="@+id/Button23"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -245,7 +245,7 @@
         android:layout_alignBottom="@+id/Button21"
         android:layout_alignLeft="@+id/Button25"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -257,7 +257,7 @@
         android:layout_alignBottom="@+id/Button22"
         android:layout_alignLeft="@+id/Button26"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -269,7 +269,7 @@
         android:layout_alignBottom="@+id/Button24"
         android:layout_alignLeft="@+id/Button28"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -281,7 +281,7 @@
         android:layout_alignBottom="@+id/Button23"
         android:layout_alignLeft="@+id/Button27"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -293,7 +293,7 @@
         android:layout_marginLeft="15dp"
         android:layout_toRightOf="@+id/button1"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -305,7 +305,7 @@
         android:layout_marginLeft="11dp"
         android:layout_toRightOf="@+id/Button20"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -317,7 +317,7 @@
         android:layout_marginLeft="56dp"
         android:layout_toRightOf="@+id/Button25"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -328,7 +328,7 @@
         android:layout_above="@+id/Button02"
         android:layout_alignLeft="@+id/Button35"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -340,7 +340,7 @@
         android:layout_alignBottom="@+id/Button17"
         android:layout_alignLeft="@+id/Button34"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -352,7 +352,7 @@
         android:layout_alignBottom="@+id/Button28"
         android:layout_alignLeft="@+id/Button33"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -364,7 +364,7 @@
         android:layout_alignBottom="@+id/Button29"
         android:layout_alignLeft="@+id/Button32"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -377,7 +377,7 @@
         android:layout_marginLeft="17dp"
         android:layout_toRightOf="@+id/Button35"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -388,7 +388,7 @@
         android:layout_above="@+id/Button02"
         android:layout_alignLeft="@+id/Button37"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -400,7 +400,7 @@
         android:layout_alignBottom="@+id/Button27"
         android:layout_alignLeft="@+id/Button39"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -411,7 +411,7 @@
         android:layout_above="@+id/Button04"
         android:layout_alignLeft="@+id/Button38"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -423,7 +423,7 @@
         android:layout_alignBottom="@+id/Button30"
         android:layout_alignLeft="@+id/Button31"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -436,7 +436,7 @@
         android:layout_marginLeft="116dp"
         android:layout_marginTop="59dp"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -448,7 +448,7 @@
         android:layout_marginLeft="16dp"
         android:layout_toRightOf="@+id/Button09"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -460,7 +460,7 @@
         android:layout_marginLeft="12dp"
         android:layout_toRightOf="@+id/Button15"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -473,7 +473,7 @@
         android:layout_marginLeft="16dp"
         android:layout_toRightOf="@+id/Button37"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -484,7 +484,7 @@
         android:layout_above="@+id/Button02"
         android:layout_alignLeft="@+id/Button41"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -496,7 +496,7 @@
         android:layout_alignBottom="@+id/Button38"
         android:layout_alignLeft="@+id/Button42"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -507,7 +507,7 @@
         android:layout_above="@+id/Button04"
         android:layout_alignLeft="@+id/Button40"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -519,7 +519,7 @@
         android:layout_alignBottom="@+id/Button36"
         android:layout_alignLeft="@+id/Button44"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -531,7 +531,7 @@
         android:layout_marginLeft="65dp"
         android:layout_toRightOf="@+id/Button10"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 

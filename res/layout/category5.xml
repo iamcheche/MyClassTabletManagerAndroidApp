@@ -6,18 +6,6 @@
     android:orientation="vertical" >
 
     <Button
-        android:id="@+id/Button02"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignLeft="@+id/Button01"
-        android:layout_below="@+id/Button01"
-        android:layout_marginTop="14dp"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
         android:id="@+id/Button01"
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -25,7 +13,7 @@
         android:layout_below="@+id/button1"
         android:layout_marginTop="12dp"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -37,7 +25,7 @@
         android:layout_below="@+id/Button03"
         android:layout_marginTop="12dp"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -49,7 +37,7 @@
         android:layout_below="@+id/Button02"
         android:layout_marginTop="11dp"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -60,18 +48,7 @@
         android:layout_above="@+id/Button02"
         android:layout_alignLeft="@+id/Button09"
         android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button07"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignLeft="@+id/Button08"
-        android:layout_centerVertical="true"
-        android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -82,7 +59,7 @@
         android:layout_above="@+id/Button04"
         android:layout_alignLeft="@+id/Button07"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -94,7 +71,7 @@
         android:layout_alignBottom="@+id/Button04"
         android:layout_alignLeft="@+id/Button05"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -105,19 +82,7 @@
         android:layout_above="@+id/Button02"
         android:layout_alignLeft="@+id/Button10"
         android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button12"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignBaseline="@+id/Button07"
-        android:layout_alignBottom="@+id/Button07"
-        android:layout_alignLeft="@+id/Button11"
-        android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -128,7 +93,7 @@
         android:layout_above="@+id/Button04"
         android:layout_alignLeft="@+id/Button12"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -140,7 +105,7 @@
         android:layout_alignBottom="@+id/Button06"
         android:layout_alignLeft="@+id/Button13"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -151,7 +116,7 @@
         android:layout_above="@+id/Button02"
         android:layout_alignLeft="@+id/Button15"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -163,7 +128,7 @@
         android:layout_alignBottom="@+id/Button02"
         android:layout_alignLeft="@+id/Button16"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -175,7 +140,7 @@
         android:layout_alignBottom="@+id/Button13"
         android:layout_alignLeft="@+id/Button17"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -187,7 +152,7 @@
         android:layout_alignBottom="@+id/Button14"
         android:layout_alignLeft="@+id/Button18"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -198,19 +163,7 @@
         android:layout_above="@+id/Button02"
         android:layout_alignLeft="@+id/Button20"
         android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button22"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignBaseline="@+id/Button12"
-        android:layout_alignBottom="@+id/Button12"
-        android:layout_alignLeft="@+id/Button21"
-        android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -221,7 +174,7 @@
         android:layout_above="@+id/Button04"
         android:layout_alignLeft="@+id/Button22"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -233,7 +186,7 @@
         android:layout_alignBottom="@+id/Button19"
         android:layout_alignLeft="@+id/Button23"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -245,7 +198,7 @@
         android:layout_alignBottom="@+id/Button21"
         android:layout_alignLeft="@+id/Button25"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -257,7 +210,7 @@
         android:layout_alignBottom="@+id/Button22"
         android:layout_alignLeft="@+id/Button26"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -269,7 +222,7 @@
         android:layout_alignBottom="@+id/Button24"
         android:layout_alignLeft="@+id/Button28"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -281,7 +234,7 @@
         android:layout_alignBottom="@+id/Button23"
         android:layout_alignLeft="@+id/Button27"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -292,7 +245,7 @@
         android:layout_above="@+id/Button02"
         android:layout_alignLeft="@+id/Button35"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -304,7 +257,7 @@
         android:layout_alignBottom="@+id/Button17"
         android:layout_alignLeft="@+id/Button34"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -316,7 +269,7 @@
         android:layout_alignBottom="@+id/Button28"
         android:layout_alignLeft="@+id/Button33"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -328,7 +281,7 @@
         android:layout_alignBottom="@+id/Button29"
         android:layout_alignLeft="@+id/Button32"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -339,7 +292,7 @@
         android:layout_above="@+id/Button02"
         android:layout_alignLeft="@+id/Button37"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -351,7 +304,7 @@
         android:layout_alignBottom="@+id/Button27"
         android:layout_alignLeft="@+id/Button39"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -362,7 +315,7 @@
         android:layout_above="@+id/Button04"
         android:layout_alignLeft="@+id/Button38"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -374,7 +327,7 @@
         android:layout_alignBottom="@+id/Button30"
         android:layout_alignLeft="@+id/Button31"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -385,7 +338,7 @@
         android:layout_above="@+id/Button02"
         android:layout_alignLeft="@+id/Button41"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -397,7 +350,7 @@
         android:layout_alignBottom="@+id/Button38"
         android:layout_alignLeft="@+id/Button42"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -408,7 +361,7 @@
         android:layout_above="@+id/Button04"
         android:layout_alignLeft="@+id/Button40"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -420,7 +373,7 @@
         android:layout_alignBottom="@+id/Button36"
         android:layout_alignLeft="@+id/Button44"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -431,7 +384,7 @@
         android:layout_above="@+id/Button02"
         android:layout_alignLeft="@+id/Button47"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -443,7 +396,7 @@
         android:layout_alignBottom="@+id/Button40"
         android:layout_alignLeft="@+id/Button49"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -454,7 +407,7 @@
         android:layout_above="@+id/Button04"
         android:layout_alignLeft="@+id/Button45"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -466,109 +419,7 @@
         android:layout_alignBottom="@+id/Button43"
         android:layout_alignLeft="@+id/Button46"
         android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button54"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_above="@+id/Button02"
-        android:layout_alignLeft="@+id/Button52"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button50"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_above="@+id/Button03"
-        android:layout_alignLeft="@+id/Button54"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button51"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignBaseline="@+id/Button46"
-        android:layout_alignBottom="@+id/Button46"
-        android:layout_alignLeft="@+id/Button50"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button53"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignBaseline="@+id/Button48"
-        android:layout_alignBottom="@+id/Button48"
-        android:layout_alignLeft="@+id/Button51"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button59"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_above="@+id/Button02"
-        android:layout_alignLeft="@+id/Button57"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button55"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_above="@+id/Button03"
-        android:layout_alignLeft="@+id/Button59"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button56"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_above="@+id/Button04"
-        android:layout_alignLeft="@+id/Button55"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button58"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignBaseline="@+id/Button53"
-        android:layout_alignBottom="@+id/Button53"
-        android:layout_alignLeft="@+id/Button56"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button09"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_above="@+id/Button01"
-        android:layout_toRightOf="@+id/button1"
-        android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -579,7 +430,7 @@
         android:layout_above="@+id/Button01"
         android:layout_toRightOf="@+id/Button09"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -590,7 +441,7 @@
         android:layout_above="@+id/Button01"
         android:layout_toRightOf="@+id/Button10"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -601,7 +452,7 @@
         android:layout_above="@+id/Button01"
         android:layout_toRightOf="@+id/Button15"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -612,7 +463,7 @@
         android:layout_above="@+id/Button01"
         android:layout_toRightOf="@+id/Button25"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -623,7 +474,7 @@
         android:layout_above="@+id/Button01"
         android:layout_toRightOf="@+id/Button35"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -634,7 +485,7 @@
         android:layout_above="@+id/Button01"
         android:layout_toRightOf="@+id/Button37"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -645,7 +496,7 @@
         android:layout_above="@+id/Button01"
         android:layout_toRightOf="@+id/Button41"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
 
@@ -657,232 +508,9 @@
         android:layout_marginLeft="13dp"
         android:layout_toRightOf="@+id/Button20"
         android:background="@drawable/border"
-        android:text="Button"
+        android:text="@string/name"
         android:textColor="#fff"
         android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button52"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_above="@+id/Button01"
-        android:layout_marginLeft="13dp"
-        android:layout_toRightOf="@+id/Button47"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button57"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignBaseline="@+id/Button52"
-        android:layout_alignBottom="@+id/Button52"
-        android:layout_toRightOf="@+id/Button52"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button66"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_above="@+id/Button01"
-        android:layout_toRightOf="@+id/Button57"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button60"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignBaseline="@+id/Button59"
-        android:layout_alignBottom="@+id/Button59"
-        android:layout_alignLeft="@+id/Button66"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button61"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignBaseline="@+id/Button55"
-        android:layout_alignBottom="@+id/Button55"
-        android:layout_alignLeft="@+id/Button60"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button69"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignBaseline="@+id/Button56"
-        android:layout_alignBottom="@+id/Button56"
-        android:layout_alignLeft="@+id/Button61"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button63"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignBaseline="@+id/Button58"
-        android:layout_alignBottom="@+id/Button58"
-        android:layout_alignLeft="@+id/Button69"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button67"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignBaseline="@+id/Button63"
-        android:layout_alignBottom="@+id/Button63"
-        android:layout_toRightOf="@+id/Button63"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button64"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignBaseline="@+id/Button69"
-        android:layout_alignBottom="@+id/Button69"
-        android:layout_alignLeft="@+id/Button67"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button62"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignBaseline="@+id/Button45"
-        android:layout_alignBottom="@+id/Button45"
-        android:layout_alignLeft="@+id/Button64"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button68"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignBaseline="@+id/Button60"
-        android:layout_alignBottom="@+id/Button60"
-        android:layout_toRightOf="@+id/Button60"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button65"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_above="@+id/Button01"
-        android:layout_alignLeft="@+id/Button68"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="17dp"
-        android:layout_marginTop="61dp"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button71"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_above="@+id/Button01"
-        android:layout_toRightOf="@+id/Button65"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button73"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_above="@+id/Button02"
-        android:layout_toRightOf="@+id/Button68"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button70"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_above="@+id/Button03"
-        android:layout_alignLeft="@+id/Button73"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button72"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_above="@+id/Button04"
-        android:layout_alignLeft="@+id/Button70"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/Button74"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignBaseline="@+id/Button67"
-        android:layout_alignBottom="@+id/Button67"
-        android:layout_alignLeft="@+id/Button72"
-        android:background="@drawable/border"
-        android:text="Button"
-        android:textColor="#fff"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/btnOK"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/btnUpdate"
-        android:layout_alignBottom="@+id/btnUpdate"
-        android:layout_centerHorizontal="true"
-        android:background="@android:color/transparent"
-        android:text="OK"
-        android:textColor="#ffffff"
-        android:textSize="30sp" />
 
     <Button
         android:id="@+id/btnFormula"
@@ -891,31 +519,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:background="@android:color/transparent"
-        android:text="Formula"
-        android:textColor="#ffffff"
-        android:textSize="30sp" />
-
-    <Button
-        android:id="@+id/btnCancel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/Button74"
-        android:layout_marginRight="40dp"
-        android:background="@android:color/transparent"
-        android:text="Cancel"
-        android:textColor="#ffffff"
-        android:textSize="30sp" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/Button66"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="25dp"
-        android:background="@android:color/transparent"
-        android:text="Seat Plan"
+        android:text="@string/formula"
         android:textColor="#ffffff"
         android:textSize="30sp" />
 
@@ -927,7 +531,110 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="23dp"
         android:background="@android:color/transparent"
-        android:text="Grades"
+        android:text="@string/grades"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="71dp"
+        android:background="@android:color/transparent"
+        android:text="@string/seat_plan"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/Button09"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_toRightOf="@+id/Button01"
+        android:background="@drawable/border"
+        android:text="@string/name"
+        android:textColor="#fff"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/Button01"
+        android:layout_below="@+id/Button01"
+        android:background="@drawable/border"
+        android:text="@string/name"
+        android:textColor="#fff"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnGrade"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/border"
+        android:text="@string/name"
+        android:textColor="#fff"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/Button22"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/Button03"
+        android:layout_alignLeft="@+id/btnFormula"
+        android:background="@drawable/border"
+        android:text="@string/name"
+        android:textColor="#fff"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/Button12"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/Button03"
+        android:layout_toLeftOf="@+id/Button17"
+        android:background="@drawable/border"
+        android:text="@string/name"
+        android:textColor="#fff"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/Button07"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/Button03"
+        android:layout_toLeftOf="@+id/Button12"
+        android:background="@drawable/border"
+        android:text="@string/name"
+        android:textColor="#fff"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/Button48"
+        android:background="@android:color/transparent"
+        android:text="@string/cancel"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Button24"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:text="@string/ok"
         android:textColor="#ffffff"
         android:textSize="30sp" />
 
@@ -935,8 +642,8 @@
         android:id="@+id/btnUpdate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/Button19"
+        android:layout_below="@+id/Button04"
+        android:layout_toLeftOf="@+id/Button06"
         android:background="@android:color/transparent"
         android:text="@string/update"
         android:textColor="#ffffff"

@@ -17,6 +17,8 @@
             android:name=".LoadingIntroduction"
             android:configChanges="orientation"
     		android:screenOrientation="portrait"
+    		android:clearTaskOnLaunch="true"  
+			android:stateNotNeeded="true"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -170,12 +172,12 @@
         </activity>
 	   
 	   <activity
-            android:name=".Detail"
+            android:name=".ClassDetail"
             android:configChanges="orientation"
     		android:screenOrientation="portrait"
             android:label="@string/app_name" >
             <intent-filter>
-                <action android:name="com.capstone2.myclasstabletmanager.DETAIL" />
+                <action android:name="com.capstone2.myclasstabletmanager.CLASSDETAIL" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

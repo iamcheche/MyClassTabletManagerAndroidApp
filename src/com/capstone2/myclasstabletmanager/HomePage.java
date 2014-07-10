@@ -7,7 +7,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
-
 import android.widget.Button;
 
 public class HomePage extends Activity implements OnClickListener{
@@ -52,9 +51,9 @@ public class HomePage extends Activity implements OnClickListener{
 			 	Intent intent = new Intent(getBaseContext(), Tutorial.class);
 					startActivity(intent);  
 		 }
-		 
+
 		 else if(v.getId() == R.id.btnClass1){
-			 	Intent intent = new Intent(getBaseContext(), Detail.class);
+			 	Intent intent = new Intent(getBaseContext(), ClassDetail.class);
 					startActivity(intent);  
 		 }
 		 

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
-    android:orientation="vertical" >
+    android:orientation="vertical" xmlns:tools="http://schemas.android.com/tools">
 
     
     <Button
@@ -28,7 +28,7 @@
         android:layout_alignBottom="@+id/btnCancel"
         android:layout_centerHorizontal="true"
         android:background="@android:color/transparent"
-        android:text="OK"
+        android:text="@string/ok"
         android:textColor="#ffffff"
         android:textSize="30sp" />
 
@@ -43,7 +43,8 @@
         android:background="@android:color/transparent"
         android:text="Cancel"
         android:textColor="#ffffff"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        tools:ignore="ButtonOrder" />
 
     <Button
         android:id="@+id/btnLogOut"
@@ -126,6 +127,7 @@
          android1:layout_below="@+id/radioGroup1"
          android1:layout_marginTop="40dp"
          android1:layout_toLeftOf="@+id/btnCancel"
-         android1:text="Class 1" />
+         android:textColor="#ffffff"
+         android1:text="@string/class_1" />
 
 </RelativeLayout>

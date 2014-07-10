@@ -23,15 +23,10 @@ public class Detail  extends Activity implements OnClickListener{
 	
 		Button lec = (Button)findViewById(R.id.btnLectures);
 			lec.setOnClickListener(this);
-			
-		Button student = (Button)findViewById(R.id.btnStudent);
-			student.setOnClickListener(this);
 		
 		Button cog = (Button)findViewById(R.id.btnCGO);
 			cog.setOnClickListener(this);
-			
-		Button gformula = (Button)findViewById(R.id.btnClassGrading);
-			gformula.setOnClickListener(this);
+
 		
 	}
 
@@ -55,10 +50,7 @@ public class Detail  extends Activity implements OnClickListener{
 			 	Intent intent = new Intent(getBaseContext(), ClassOverallGrade.class);
 					startActivity(intent);  
 		 }
-		 else if(v.getId() == R.id.btnGFormula){
-			 	Intent intent = new Intent(getBaseContext(), GradingFormula.class);
-					startActivity(intent);  
-		 }
+
 		 
 	}
 
