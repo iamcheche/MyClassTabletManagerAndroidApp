@@ -112,7 +112,7 @@
         </activity>
         
         <activity
-            android:name=".Category2"
+            android:name=".CategoryTwo"
             android:configChanges="orientation"
     		android:screenOrientation="landscape"
             android:label="@string/app_name" >
@@ -124,7 +124,7 @@
         </activity>
         
 	    <activity
-            android:name=".Category3"
+            android:name=".CategoryThree"
             android:configChanges="orientation"
     		android:screenOrientation="landscape"
             android:label="@string/app_name" >
@@ -136,7 +136,7 @@
         </activity>
         
 	    <activity
-            android:name=".Category4"
+            android:name=".CategoryFour"
             android:configChanges="orientation"
     		android:screenOrientation="landscape"
             android:label="@string/app_name" >
@@ -148,7 +148,7 @@
         </activity>
 	    
 	    <activity
-            android:name=".Category5"
+            android:name=".CategoryFive"
             android:configChanges="orientation"
     		android:screenOrientation="landscape"
             android:label="@string/app_name" >

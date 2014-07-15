@@ -18,6 +18,9 @@ public class CategoryOne extends Activity implements OnClickListener{
 		Button sp = (Button)findViewById(R.id.btnSeatPlan);
 		sp.setOnClickListener(this);
 		
+		Button gf = (Button)findViewById(R.id.btnFormula);
+		gf.setOnClickListener(this);
+		
 	}
 
 	@Override
@@ -27,7 +30,13 @@ public class CategoryOne extends Activity implements OnClickListener{
 	        Intent intent = new Intent(getBaseContext(), ArrangeSeat.class);
 	                    startActivity(intent);   
 
-	 }
+		}
+		else if(v.getId() == R.id.btnFormula){
+	        Intent intent = new Intent(getBaseContext(), GradingFormula.class);
+	                    startActivity(intent);   
+
+		}
+
 	}
 
 }

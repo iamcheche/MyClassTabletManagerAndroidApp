@@ -3,6 +3,7 @@
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_height="fill_parent"
 	android:layout_width="fill_parent"
+	android:background="#000"
 	>
 
 	<LinearLayout
@@ -33,7 +34,8 @@
 				android:text="Class Section Name"
 				android:layout_width="wrap_content"
 				android:textSize="20sp"
-				android:layout_marginBottom="5dp"/>
+				android:layout_marginBottom="5dp"
+				android:textColor="#fff"/>
 
 			<EditText
 				android:layout_height="wrap_content"
@@ -60,7 +62,8 @@
 				android:text="Subject Name"
 				android:layout_width="wrap_content"
 				android:textSize="20sp"
-				android:layout_marginBottom="5dp"/>
+				android:layout_marginBottom="5dp"
+				android:textColor="#fff"/>
 
 			<EditText
 				android:layout_height="wrap_content"
@@ -85,7 +88,8 @@
 				android:text="Batch"
 				android:layout_width="wrap_content"
 				android:textSize="20sp"
-				android:layout_marginBottom="5dp"/>
+				android:layout_marginBottom="5dp"
+				android:textColor="#fff"/>
 
 			<LinearLayout
 				android:layout_height="wrap_content"
@@ -96,7 +100,8 @@
 					android:layout_height="wrap_content"
 					android:text="From:"
 					android:layout_width="wrap_content"
-					android:textSize="15sp"/>
+					android:textSize="15sp"
+					android:textColor="#fff"/>
 
 				<EditText
 					android:layout_height="wrap_content"
@@ -105,7 +110,7 @@
 					android:background="@drawable/round"
 					android:textCursorDrawable="@null"
 					android:singleLine="true"
-					android:textColor="#000000"
+					android:textColor="#000"
 					android:layout_weight="1.0"
 					android:padding="5dp"/>
 
@@ -113,7 +118,8 @@
 					android:layout_height="wrap_content"
 					android:text="To:"
 					android:layout_width="wrap_content"
-					android:textSize="15sp"/>
+					android:textSize="15sp"
+					android:textColor="#fff"/>
 
 				<EditText
 					android:layout_height="wrap_content"
@@ -122,7 +128,7 @@
 					android:background="@drawable/round"
 					android:textCursorDrawable="@null"
 					android:singleLine="true"
-					android:textColor="#000000"
+					android:textColor="#000"
 					android:layout_weight="1.0"
 					android:padding="5dp"/>
 
@@ -141,7 +147,8 @@
 				android:text="School Name"
 				android:layout_width="wrap_content"
 				android:textSize="20sp"
-				android:layout_marginBottom="5dp"/>
+				android:layout_marginBottom="5dp"
+				android:textColor="#fff"/>
 
 			<EditText
 				android:layout_height="wrap_content"
@@ -150,7 +157,7 @@
 				android:background="@drawable/round"
 				android:textCursorDrawable="@null"
 				android:singleLine="true"
-				android:textColor="#000000"
+				android:textColor="#000"
 				android:padding="5dp"/>
 
 		</LinearLayout>
@@ -166,7 +173,8 @@
 				android:text="Year Level"
 				android:layout_width="wrap_content"
 				android:textSize="20sp"
-				android:layout_marginBottom="5dp"/>
+				android:layout_marginBottom="5dp"
+				android:textColor="#fff"/>
 
 			<EditText
 				android:layout_height="wrap_content"
@@ -175,7 +183,7 @@
 				android:background="@drawable/round"
 				android:textCursorDrawable="@null"
 				android:singleLine="true"
-				android:textColor="#000000"
+				android:textColor="#fff"
 				android:padding="5dp"/>
 
 		</LinearLayout>
@@ -191,7 +199,8 @@
 				android:text="No. of Students"
 				android:layout_width="wrap_content"
 				android:textSize="20sp"
-				android:layout_marginBottom="5dp"/>
+				android:layout_marginBottom="5dp"
+				android:textColor="#fff"/>
 
 			<EditText
 				android:layout_height="wrap_content"
@@ -200,7 +209,7 @@
 				android:background="@drawable/round"
 				android:textCursorDrawable="@null"
 				android:singleLine="true"
-				android:textColor="#000000"
+				android:textColor="#000"
 				android:padding="5dp"/>
 
 		</LinearLayout>
@@ -212,7 +221,6 @@
 			android:gravity="left|center"
 			android:paddingLeft="20dp"
 			android:textSize="30sp"
-			android:textColor="#000000"
 			android:textStyle="bold|italic"
 			android:background="@drawable/oval"/>
 
@@ -227,7 +235,8 @@
 				android:text="Day"
 				android:layout_width="wrap_content"
 				android:textSize="20sp"
-				android:layout_marginBottom="5dp"/>
+				android:layout_marginBottom="5dp"
+				android:textColor="#fff"/>
 
 			<LinearLayout
 				android:layout_height="wrap_content"
@@ -237,32 +246,39 @@
 				<CheckBox
 					android:layout_height="wrap_content"
 					android:text="Mon"
-					android:layout_width="wrap_content"/>
+					android:layout_width="wrap_content"
+					android:textColor="#fff"/>
 
 				<CheckBox
 					android:layout_height="wrap_content"
 					android:text="Tue"
-					android:layout_width="wrap_content"/>
+					android:layout_width="wrap_content"
+					android:textColor="#fff"/>
 
 				<CheckBox
 					android:layout_height="wrap_content"
 					android:text="Wed"
-					android:layout_width="wrap_content"/>
+					android:layout_width="wrap_content"
+					android:textColor="#fff"/>
 
 				<CheckBox
 					android:layout_height="wrap_content"
 					android:text="Thur"
-					android:layout_width="wrap_content"/>
+					android:layout_width="wrap_content"
+					android:textColor="#fff"/>
 
 				<CheckBox
 					android:layout_height="wrap_content"
 					android:text="Fri"
-					android:layout_width="wrap_content"/>
+					android:layout_width="wrap_content"
+					android:textColor="#fff"/>
 
 				<CheckBox
 					android:layout_height="wrap_content"
 					android:text="Sat"
-					android:layout_width="wrap_content"/>
+					android:layout_width="wrap_content"
+					android:textColor="#fff"/>
+				
 
 			</LinearLayout>
 
@@ -279,7 +295,8 @@
 				android:text="Time"
 				android:layout_width="wrap_content"
 				android:textSize="20sp"
-				android:layout_marginBottom="5dp"/>
+				android:layout_marginBottom="5dp"
+				android:textColor="#fff"/>
 
 			<LinearLayout
 				android:layout_height="wrap_content"
@@ -296,12 +313,14 @@
 						android:text="From:"
 						android:layout_width="0dp"
 						android:textSize="15sp"
-						android:layout_weight="0.2"/>
+						android:layout_weight="0.2"
+						android:textColor="#fff"/>
 
 					<TimePicker
 						android:layout_height="150dp"
 						android:layout_width="0dp"
-						android:layout_weight="1.0"/>
+						android:layout_weight="1.0"
+						android:background="#fff"/>
 
 				</LinearLayout>
 
@@ -315,12 +334,14 @@
 						android:text="To:"
 						android:layout_width="0dp"
 						android:textSize="15sp"
-						android:layout_weight="0.2"/>
+						android:layout_weight="0.2"
+						android:textColor="#fff"/>
 
 					<TimePicker
 						android:layout_height="150dp"
 						android:layout_width="0dp"
-						android:layout_weight="1.0"/>
+						android:layout_weight="1.0"
+						android:background="#fff"/>
 
 				</LinearLayout>
 

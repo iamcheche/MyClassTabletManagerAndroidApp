@@ -30,19 +30,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="Listing" />
+            android:text="Listing" 
+            android:textColor="#fff"/>
 
         <RadioButton
             android:id="@+id/radio1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Manual" />
+            android:text="Manual" 
+            android:textColor="#fff"/>
 
         <RadioButton
             android:id="@+id/radio2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Predefined Selection" />
+            android:text="Predefined Selection" 
+            android:textColor="#fff"/>
     </RadioGroup>
 
     <TextView
@@ -123,19 +126,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="Alphabetical (Asc)" />
+            android:text="Alphabetical (Asc)" 
+            android:textColor="#fff"/>
 
         <RadioButton
             android:id="@+id/radio4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Alphabetical (Desc)" />
+            android:text="Alphabetical (Desc)" 
+            android:textColor="#fff"/>
 
         <RadioButton
             android:id="@+id/radio5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Manual Pattern" />
+            android:text="Manual Pattern" 
+            android:textColor="#fff"/>
     </RadioGroup>
 
     <Spinner

@@ -18,12 +18,16 @@ public class SeatPlanCategory extends Activity implements OnClickListener{
 		
 		Button cat1 = (Button)findViewById(R.id.btnCat1);
 			cat1.setOnClickListener(this);
+			
 		Button cat2 = (Button)findViewById(R.id.btnCat2);
 			cat2.setOnClickListener(this);
+			
 		Button cat3 = (Button)findViewById(R.id.btnCat3);
 			cat3.setOnClickListener(this);
+			
 		Button cat4 = (Button)findViewById(R.id.btnCat4);
 			cat4.setOnClickListener(this);
+			
 		Button cat5 = (Button)findViewById(R.id.btnCat5);
 			cat5.setOnClickListener(this);
 
@@ -37,19 +41,19 @@ public class SeatPlanCategory extends Activity implements OnClickListener{
 	            startActivity(intent);   
 		}
 	 else if(v.getId() == R.id.btnCat2){
-	        Intent intent = new Intent(getBaseContext(), Category2.class);
+	        Intent intent = new Intent(getBaseContext(), CategoryTwo.class);
 	            startActivity(intent);  
 	 	}
 	 else if(v.getId() == R.id.btnCat3){
-		 	Intent intent = new Intent(getBaseContext(), Category3.class);
+		 	Intent intent = new Intent(getBaseContext(), CategoryThree.class);
 				startActivity(intent);  
 	 	}
 	 else if(v.getId() == R.id.btnCat4){
-		 	Intent intent = new Intent(getBaseContext(), Category4.class);
+		 	Intent intent = new Intent(getBaseContext(), CategoryFour.class);
 				startActivity(intent);  
 	 	}
 	 else if(v.getId() == R.id.btnCat5){
-		 	Intent intent = new Intent(getBaseContext(), Category5.class);
+		 	Intent intent = new Intent(getBaseContext(), CategoryFive.class);
 				startActivity(intent);  
 	 	}
 	}

@@ -14,6 +14,7 @@
         android1:layout_centerHorizontal="true"
         android1:layout_marginTop="126dp"
         android1:text="Formula for Class Overall Grade"
+         android:textColor="#fff"
         android1:textAppearance="?android:attr/textAppearanceLarge" />
 
     <RadioGroup
@@ -30,24 +31,28 @@
             android1:layout_width="wrap_content"
             android1:layout_height="wrap_content"
             android1:checked="true"
+            android:textColor="#fff"
             android1:text="Assignment" />
 
         <RadioButton
             android1:id="@+id/radio1"
             android1:layout_width="wrap_content"
             android1:layout_height="wrap_content"
+            android:textColor="#fff"
             android1:text="Project" />
 
         <RadioButton
             android1:id="@+id/radio2"
             android1:layout_width="wrap_content"
             android1:layout_height="wrap_content"
+            android:textColor="#fff"
             android1:text="Recitation" />
         
         <RadioButton
             android1:id="@+id/radio3"
             android1:layout_width="wrap_content"
             android1:layout_height="wrap_content"
+            android:textColor="#fff"
             android1:text="Exam" />
         
     </RadioGroup>
@@ -60,6 +65,7 @@
         android1:layout_alignTop="@+id/radioGroup1"
         android1:layout_marginRight="60dp"
         android1:background="@drawable/border"
+         android:textColor="#fff"
         android1:text="TextView" />
 
     <Button
@@ -69,6 +75,7 @@
         android1:layout_alignLeft="@+id/radioGroup1"
         android1:layout_below="@+id/textView2"
         android1:layout_marginTop="101dp"
+         android:textColor="#fff"
         android1:text="+" />
 
     <Button
@@ -79,6 +86,7 @@
         android1:layout_alignBottom="@+id/button1"
         android1:layout_marginLeft="17dp"
         android1:layout_toRightOf="@+id/button1"
+         android:textColor="#fff"
         android1:text="-" />
 
     <Button
@@ -89,6 +97,7 @@
         android1:layout_alignBottom="@+id/Button01"
         android1:layout_marginLeft="25dp"
         android1:layout_toRightOf="@+id/Button01"
+         android:textColor="#fff"
         android1:text="*" />
 
     <Button
@@ -98,6 +107,7 @@
         android1:layout_alignBottom="@+id/button2"
         android1:layout_marginLeft="20dp"
         android1:layout_toRightOf="@+id/button2"
+         android:textColor="#fff"
         android1:text="/" />
 
     <Button
@@ -107,6 +117,7 @@
         android1:layout_alignBottom="@+id/button4"
         android1:layout_marginLeft="18dp"
         android1:layout_toRightOf="@+id/button4"
+         android:textColor="#fff"
         android1:text="=" />
 
     <Button
@@ -116,6 +127,7 @@
         android1:layout_alignBaseline="@+id/button3"
         android1:layout_alignBottom="@+id/button3"
         android1:layout_alignRight="@+id/textView1"
+         android:textColor="#fff"
         android1:text="%" />
 
 </RelativeLayout>

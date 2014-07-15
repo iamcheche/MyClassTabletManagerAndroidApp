@@ -36,6 +36,7 @@ public class NewClass extends Activity implements OnClickListener{
 	        Intent intent = new Intent(getBaseContext(), SeatPlanCategory.class);
 	            startActivity(intent);  
 	 }
+		
 	}
 	
 

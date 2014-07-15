@@ -27,15 +27,17 @@ public class ClassDetail extends Activity implements OnClickListener{
 		Button cog = (Button)findViewById(R.id.btnCGO);
 		cog.setOnClickListener(this);
 		
-		Button gformula = (Button)findViewById(R.id.btnClassGrading);
-		gformula.setOnClickListener(this);
+		Button student = (Button)findViewById(R.id.btnStudent);
+		student.setOnClickListener(this);
+		
+
 	
 }
 
 	@Override
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
-		if(v.getId() == R.id.btnTask){
+		/*if(v.getId() == R.id.btnTask){
 	        Intent intent = new Intent(getBaseContext(), Task.class);
 	                    startActivity(intent);   
 
@@ -54,12 +56,34 @@ public class ClassDetail extends Activity implements OnClickListener{
 		else if(v.getId() == R.id.btnCGO){
 			 	Intent intent = new Intent(getBaseContext(), ClassOverallGrade.class);
 					startActivity(intent);  
-		 }
+		 }*/
 		
-		 else if(v.getId() == R.id.btnGFormula){
-			 	Intent intent = new Intent(getBaseContext(), GradingFormula.class);
-					startActivity(intent);  
-		 }
-}
+        switch(v.getId()) {
+        case R.id.btnTask:
+        	 Intent intent = new Intent(getBaseContext(), Task.class);
+             startActivity(intent);
+        case R.id.btnStats:
+        	 Intent intent1 = new Intent(getBaseContext(), Stats.class);
+             startActivity(intent1);
+          break;
+        case R.id.btnLectures:
+            //Stop MediaPlayer
+          	 Intent intent2 = new Intent(getBaseContext(), Lecture.class);
+               startActivity(intent2);
+            break;
+        case R.id.btnCGO:
+            //Stop MediaPlayer
+          	 Intent intent3= new Intent(getBaseContext(), ClassOverallGrade.class);
+               startActivity(intent3);
+            break;
+        case R.id.btnStudent:
+            //Stop MediaPlayer 
+          	 Intent intent4 = new Intent(getBaseContext(), ViewStudent.class);
+               startActivity(intent4);
+            break;
+      }
+   }
+		
 
 }
+
